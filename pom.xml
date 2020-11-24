@@ -8,6 +8,20 @@
     <artifactId>flink</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <repositories>
+        <repository>
+            <id>maven-ali</id>
+            <url>http://maven.aliyun.com/nexus/content/groups/public//</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>fail</checksumPolicy>
+            </snapshots>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
@@ -44,6 +58,12 @@
             <groupId>org.apache.flink</groupId>
             <artifactId>flink-connector-elasticsearch6_2.11</artifactId>
             <version>1.10.1</version>
+        </dependency>
+        <!-- oracle连接器 -->
+        <dependency>
+            <groupId>cn.easyproject</groupId>
+            <artifactId>ojdbc7</artifactId>
+            <version>12.1.0.2.0</version>
         </dependency>
     </dependencies>
 
