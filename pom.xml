@@ -65,6 +65,18 @@
             <artifactId>ojdbc7</artifactId>
             <version>12.1.0.2.0</version>
         </dependency>
+
+        <!-- table api -->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-table-planner_2.11</artifactId>
+            <version>1.11.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-table-planner-blink_2.11</artifactId>
+            <version>1.11.2</version>
+        </dependency>
     </dependencies>
 
     <build>
