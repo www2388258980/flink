@@ -83,6 +83,14 @@
             <artifactId>flink-table-planner-blink_2.11</artifactId>
             <version>1.11.2</version>
         </dependency>
+
+        <!--  csv -->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-csv</artifactId>
+            <version>1.11.2</version>
+        </dependency>
+
     </dependencies>
 
     <build>
