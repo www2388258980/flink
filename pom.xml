@@ -90,7 +90,12 @@
             <artifactId>flink-csv</artifactId>
             <version>1.11.2</version>
         </dependency>
-
+        <!-- json -->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-json</artifactId>
+            <version>1.11.2</version>
+        </dependency>
     </dependencies>
 
     <build>
