@@ -11,6 +11,7 @@
     <modules>
         <module>HotItemsAnalysis</module>
         <module>flinkwindowsql</module>
+        <module>NetworkFlowAnalysis</module>
     </modules>
 
     <properties>
