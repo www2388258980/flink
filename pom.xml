@@ -12,6 +12,7 @@
         <module>HotItemsAnalysis</module>
         <module>flinkwindowsql</module>
         <module>NetworkFlowAnalysis</module>
+        <module>AppMarketAnalysis</module>
     </modules>
 
     <properties>
