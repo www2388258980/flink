@@ -3,6 +3,7 @@ package com.yj.appmarket
 import java.sql.Timestamp
 import java.util.UUID
 
+import org.apache.flink.streaming.api.TimeCharacteristic
 import org.apache.flink.streaming.api.functions.source.{RichSourceFunction, SourceFunction}
 import org.apache.flink.streaming.api.scala._
 import org.apache.flink.streaming.api.scala.function.ProcessWindowFunction
@@ -20,6 +21,7 @@ object AppMarketByChannel {
 
   def main(args: Array[String]): Unit = {
     val env = StreamExecutionEnvironment.getExecutionEnvironment;
+    env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
 
     // 开窗统计
     val dataStream = env.addSource(new MarketSource)
