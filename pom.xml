@@ -13,6 +13,7 @@
         <module>flinkwindowsql</module>
         <module>NetworkFlowAnalysis</module>
         <module>AppMarketAnalysis</module>
+        <module>LoginFailDetect</module>
     </modules>
 
     <properties>
